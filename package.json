@@ -1,0 +1,28 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "A simple helper allowing to do asynchronous operations while maintaining synchronous style",
+  "main": "dist/async.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/async.js -o dist/async.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myagoo/async.git"
+  },
+  "keywords": [
+    "generator",
+    "promise"
+  ],
+  "author": "Myagoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myagoo/async/issues"
+  },
+  "homepage": "https://github.com/myagoo/async#readme",
+  "devDependencies": {
+    "babel-cli": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2"
+  }
+}
